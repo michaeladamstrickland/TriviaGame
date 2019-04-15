@@ -1,0 +1,45 @@
+
+body {
+    background-image: url(../images/nba.jpg.jpg);
+    padding: 100px;
+    margin: 100px;
+}
+
+.quiz, .summary {
+    display: none;
+}
+.quiz ul {
+list-style: none;
+padding: 0;
+}
+.selected {
+    background-color: yellow;
+}
+
+.h1{
+color: blue;
+font-size: 65px;
+
+}
+.start{
+    color: black;
+    font-size: 55px;
+    padding: 30px;
+    background-color: aqua;
+}
+.btn1{
+    width: 300px;
+    height: 80px;
+}
+.quiz{
+    width: 900px;
+    height: 700px;
+    background-color: grey;
+    font-size: 40px;
+}
+.summary{
+    width: 700px;
+    height: 500px;
+    background-color: grey;
+    font-size: 40px;
+}
