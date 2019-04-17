@@ -1,27 +1,27 @@
 let score = 0;
 let currentQuestion = 0;
 let guess = '';
-let clock = 20;
+let clock = '';
 let questions = [
     {
         title: "what team did michael jordan play for and owns?",
         answer: ['wizards','bulls','celtics','76ers'],
-        correct: 1
+        correct: '1'
     },
     {
         title: "what team did kobe play for?",
         answer: ['kings','timberwolves','clippers','lakers'],
-        correct: 3
+        correct: '3'
     },
     {
         title: "what number did allen iverson wear?",
         answer: ['3','6','23','1'],
-        correct: 0
+        correct:'0'
     },
     {
         title: "what team draffted lebron james?",
         answer: ['LA','philly','Cleveland','boston'],
-        correct: 2
+        correct: '2'
     },
 ];
 
